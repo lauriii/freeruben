@@ -1,5 +1,4 @@
 "use strict";
-konami.load();
 var easter_egg = new Konami( function() { ruben_attack(); } );
 
 function ruben_attack() {
