@@ -10,7 +10,8 @@ body {
   font-family: 'Monopoly';
   font-weight: normal;
   font-style: normal;
-  font-size: 2em; }
+  font-size: 2em;
+  line-height: 1.5em; }
 
 .b-wrapper {
   width: 90%;
