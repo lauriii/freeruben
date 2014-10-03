@@ -26,7 +26,6 @@ function spawnImage(width, height, max, count) {
   img.style.left = x + 'px';
   img.style.top = y + 'px';
 
-  // Append Druplicon image tag to HTML body.
   document.getElementsByTagName('body')[0].appendChild(img);
   count++;
 
