@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Monopoly';
+  src: url("../../fonts/Kabel-Heavy.eot");
+  src: local("☺"), url("../../fonts/Kabel-Heavy.woff") format("woff"), url("../../fonts/Kabel-Heavy.ttf") format("truetype"), url("../../fonts/Kabel-Heavy.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  background: #cffbd0;
+  font-family: 'Monopoly';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em; }
+
+.b-wrapper {
+  width: 90%;
+  margin: 0 auto; }
+
+.b-main {
+  text-align: center; }
+
+.b-footer {
+  font-size: 0.6em;
+  text-align: center; }
