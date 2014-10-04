@@ -1,9 +1,5 @@
 "use strict";
-var code = true;
-for (var i = 0; i < code.length; i++) {
-  var sequence = (code == true) ? [38, 38, 40, 40, 37, 39, 37, 39, 66, 65] : code;
-  var easter_egg = new Konami( function() { ruben_attack(); }, sequence);
-}
+var easter_egg = new Konami( function() { ruben_attack(); } );  
 
 function ruben_attack() {
   // Subtract Druplicon width and height to ensure that he is only spawned
