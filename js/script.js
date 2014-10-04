@@ -2,11 +2,8 @@
 var easter_egg = new Konami( function() { ruben_attack(); } );  
 
 function ruben_attack() {
-  // Subtract Druplicon width and height to ensure that he is only spawned
-  // inside the window area and does not cause it to scroll.
   var width = document.body.clientWidth - 256;
   var height = document.body.clientHeight -256;
-  // Select a random image.
   var max = 1000;
   var count = 0;
   spawnImage(width, height, max, count);
