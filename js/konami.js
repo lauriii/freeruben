@@ -13,7 +13,6 @@
 var Konami = function (callback) {
 	var konami = {
 		addEvent: function (obj, type, fn, ref_obj) {
-      console.log('obj');
 			if (obj.addEventListener)
 				obj.addEventListener(type, fn, false);
 			else if (obj.attachEvent) {
